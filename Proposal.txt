@@ -1,0 +1,43 @@
+Project Proposal for SI350
+Brendan Lewis and Maddie Iverson
+
+Scope -
+Our project is building a USNA Social Networking site. To do this, we
+will be creating three primary areas. A Public Area which is open to the
+public internet and doesn't require a person to create an account. A
+Member Area where users or members of our site can update their own
+information, see their own friends, and can get a personalized status
+feed. Finally, an administrator area which allows the admin to manage
+the website. Both by removing bad actors, and following basic statistics
+about the site's usage.
+
+User  Area -
+1 - Welcome Page. The first page that users see when they visit your site. It should make clear what the site's purpose is and provide appropriate links to the main sections of your site.
+2 - Search Page. This page should contain a search form and little else. The form should allow the user to submit a keyword search into your website that returns a list of status updates containing the keyword. The returned list should show at least 10 matching statuses (if there are 10 or more that match!). The results page does not have to be the same URL as the search page, but it should appear after the user submits the form.
+3 - Signup Page. For new users, provide a page that lets them sign-up and create a personal member page for themselves. The signup should contain a form that submits the initial biographical information to appear on their User Page (see below). You must include the following fields: (1) username, (2) password, (3) full name (4) USNA class year (if applicable), (5) company number(if applicable), and (6) biography textarea. The password should have to be entered twice, and you must check that they entered the same password before submission (on the client-side). Show an error message if not and block the form submission. Further, you must include, at the bare minimum, 2 other attributes for the user to fill in about themselves. It is up to you to choose relevant and interesting factoids to collect.
+4 - User Profile Page. Each user will have a "profile" page that is publicly visible to all users. This page will list the basic biographical information that they submit when they visit the Page. This page will list all current members of the site, with links to those members' User Profile Pages. You should list all members signed up to your site (all fields except the password). This page should also list the user's most recent status updates in reversed order (most recent on top). Each status should be shown with the time of posting. It is up to you to decide how many status updates to show, but you must show at least 10 (most likely more). If they've posted 200 status updates, you obviously don't want to list all of them. Finally, the user page should include a list of the user's current friends (see below). Note that if a "profile" page is requested for a user that does not exist, your program should generate some default page saying something like "this user has deleted their profile".
+5 - List Members Page. This page will list all current members of the site, with links to those members' User Profile Pages. You should list all members.
+
+Member Area - 
+6 - Login/Logout Mechanism. You need a login page that accepts a username and password, sets a cookie upon user verification, and gives access to the following member pages. You should also allow users to logout. At that time, cookies should be deleted, and users should not be able to access member pages unless they login again.
+7 - Post a Status Update. There should be a page that gives users a form to easily post status updates. Twitter only allows a single text submission of 140 characters. You must set some character limit to avoid users abusing your site, but it does not have to be 140. You must also include two other form fields: (1) current location of the user as a string they can type in, and (2) mood of the user, selected from a short list of options. You may also come up with other optional fields! All features should be saved with the status update when the form is submitted. You will also need to save the status submission timestamp in the file, so you can later create the personalized feeds (see below).
+8 - Add Friends. On Twitter, this is called "Following" people. On Facebook, it is your "Friends". You should include a link or button on each User Page that says something like "add as friend". This link should either only be visible to users who are currently logged in, or show an error message if a user clicks it and is not logged in. Clicking the link should add that User to the logged in user's friend list. You do not have to implement a verification step where the other person verifies the friend. Of course, go ahead and do so if you want that feature!
+9 - Personalized Status Feed. Each member has a list of friends they have added. This Personalized Feed will display a single list of status updates from all of these friends, ordered by submission timestamp. The list should show the most recent 30 status updates from all of their friends (you can do more if you wish). Each status should show all of that status' information (e.g., user's name, the status, mood, etc.). Note that this list is ordered, and the list will interleave updates from different friends assuming they post at random times. See Hint *3 for suggestions on implementing this. If you are familiar with Facebook, this is like your Home page. Same with Twitter, it is your personal feed.
+
+Admin Area - 
+10 - Manage Users. You should have a page that lists all of the site's users and allows the administrator to delete users who are up to no good.Manage Users. You should have a page that lists all of the site's users and allows the administrator to delete users who are up to no good.
+
+*** TBD ***
+11 - Additional feature that will be incorporated into our project that goes beyond the scope of the class
+*************
+
+Work Split - 
+We will split our work by hours to ensure that we are spending the same
+amount of time working on this project. We have decided not to split by
+task as some will be harder and require more work.
+
+Milestone - 
+November 23rd.
+By November 23rd we will have completed tasks 1, 3, 4, 6,7, 10 and built out basic html or php files that can be reached on our website so that each page we will have in our final product will be reachable. 
+
+
