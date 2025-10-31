@@ -7,7 +7,7 @@
     <meta name="author" content="Brendan Lewis">
     <meta name="keywords" content="Ministry, Baptist, Bible,USNA">
     <link rel="stylesheet" href="styles.css">
-    <title>  BCM Homepage</title>
+    <title>  Social networking site</title>
 </head>
 <body>
     <div>
@@ -59,6 +59,8 @@
         <a href="https://www.navybcm.com/whatisbcm"><img src="../images/bcm worship.jpeg" > </a>
     </div>
 
+
+    
 
     <!--This section describes the main mission and goals of BCM as an organization
     It is a section as there are three lines that need different formatting-->
@@ -122,6 +124,7 @@
     <div class="light">
         <h3> Logout of your account
         <a href="./logout.php"> Here! </a> <br>
+        
         </h3>
     </div>
     
