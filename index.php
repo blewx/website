@@ -3,11 +3,11 @@
 <html> 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="BCM homepage">
+    <meta name="description" content="Shipmate homepage">
     <meta name="author" content="Brendan Lewis">
-    <meta name="keywords" content="Ministry, Baptist, Bible,USNA">
+    <meta name="keywords" content="Social Networking, USNA">
     <link rel="stylesheet" href="styles.css">
-    <title>  Social networking site</title>
+    <title>SHIPMATE</title>
 </head>
 <body>
     <div>
@@ -41,7 +41,7 @@
 
     <div class="Header" style="display:flex; justify-content: center; align-items: center;">
         <header>  
-            <h1 style="color:rgb(255, 153, 0);"> Navy BCM </h1>
+            <h1 style="color:rgb(255, 153, 0);"> SHIPMATE </h1>
         </header>
     </div>
 
@@ -49,14 +49,7 @@
     <!--Pictures that make the website look pretty, these are also linked to 
     the offical website of BCM-->
     <div class="Picture" style="display:flex; justify-content: center; align-items: center;">
-        <!-- Link : https://www.google.com/imgres?q=navy%20bcm&imgurl=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F595fb9c759cc68f7fb4828df%2F1539988278777-7NWQNJ922GWECTJ2H4RJ%2FBCM%2BEvent-0026.jpg&imgrefurl=https%3A%2F%2Fwww.navybcm.com%2Fwhatisbcm&docid=4VsdwvR9Kw0i6M&tbnid=NdL9MvlBpJSUNM&vet=12ahUKEwjv5qOt1p6PAxWLGVkFHZCMKDIQM3oECBoQAA..i&w=2500&h=1667&hcb=2&ved=2ahUKEwjv5qOt1p6PAxWLGVkFHZCMKDIQM3oECBoQAA-->
-        <a href="https://www.navybcm.com/the-bcm-house-1"><img src="../images/bcm house.jpeg" > </a>
-        
-        <!-- Link : https://www.google.com/imgres?q=navy%20bcm&imgurl=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F595fb9c759cc68f7fb4828df%2F1503600909070-YFNRKD94OHOHWYR0VCVX%2FBCM%2BStickers-02.png&imgrefurl=https%3A%2F%2Fwww.navybcm.com%2Fwhatisbcm&docid=4VsdwvR9Kw0i6M&tbnid=zhGUQ2Ve1FvqVM&vet=12ahUKEwjv5qOt1p6PAxWLGVkFHZCMKDIQM3oECB4QAA..i&w=900&h=900&hcb=2&ved=2ahUKEwjv5qOt1p6PAxWLGVkFHZCMKDIQM3oECB4QAA-->
-        <a href="https://www.navybcm.com/whatisbcm"><img src="../images/bcm.png" > </a>
-
-        <!-- Link : https://www.google.com/imgres?q=navy%20bcm&imgurl=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F595fb9c759cc68f7fb4828df%2F1539988278777-7NWQNJ922GWECTJ2H4RJ%2FBCM%2BEvent-0026.jpg&imgrefurl=https%3A%2F%2Fwww.navybcm.com%2Fwhatisbcm&docid=4VsdwvR9Kw0i6M&tbnid=NdL9MvlBpJSUNM&vet=12ahUKEwjv5qOt1p6PAxWLGVkFHZCMKDIQM3oECBoQAA..i&w=2500&h=1667&hcb=2&ved=2ahUKEwjv5qOt1p6PAxWLGVkFHZCMKDIQM3oECBoQAA-->
-        <a href="https://www.navybcm.com/whatisbcm"><img src="../images/bcm worship.jpeg" > </a>
+        <img src="images/shipmate.png" style="height:400px; width:300px;" >
     </div>
 
 
@@ -65,9 +58,9 @@
     <!--This section describes the main mission and goals of BCM as an organization
     It is a section as there are three lines that need different formatting-->
     <section>
-        <h1 style="text-align: center;"><b>About Us!</b></h1>
-        <h3 style="text-align: center;">Our mission is to make disciples who make disciples</h3>
-        <p>We want to make a drastic impact on the brigade one person at a time through our loving service</p>
+        <h1 style="text-align: center;"><b>The New Wave of Social Media!</b></h1>
+        <h3 style="text-align: center;"></h3>
+        <p>We want to make it so that wherever and whenever you want to check in with your friends or update them on your life, you can!</p>
     </section>
 
 
@@ -75,68 +68,26 @@
      about how and when we meet and what the community looks like. Utilized
      a list so that details would be clearer.-->
     <details>
-    <summary>Want to hear more about our ministry?</summary>
-    <p>We reach midshipmen through a large amount of different avenues from meeting together weekly in a large group setting or getting together
-        in smaller groups there are so many opportunities to get plugged in. We want you to come join our BCM family and have plenty of people
-        that have never been to church who come and love our community. Come do life with us! <br>
-        <br>Here are some of the events that happen on a weekly basis:
-    </p>
+    <summary>Learn more about our features!</summary>
+    <p>You're currently looking at our home and welcome page, we hope you feel welcomed! On this site you'll find we also offer:<br></p>
     <ul>
-        <li>BCM worship/sermon - Tuesday nights from 19:20-20:20 in Mitscher</li>
-        <li>BCM D groups - Weekly and during different free periods, reach out to one of the core team to sign up!</li>
-        <li>BCM bible study - Wednesday nights from 19:20-20:20 in Mitscher/Laboon</li>
-        <li>House events - Occasional weekends throughout the year, will be announced at our worship/sermon event each week!</li>
+        <li><b>A Search Page </b>that allows you to search for diffent things words that are in other peoples status updates.</li>
+        <li><b>A Signup Page </b> so that you can join our awesome platform and create your own page!</li>
+        <li><b>Profile Pages </b> each user has a profile page so that you can learn about them and follow their posts. </li>
+        <li><b> A Member List Page</b> that lists all the current members of the site so that you can see everyone else thats on Shipmate!
+        <li><b>A Status Update Posting Page!! </b></li>
+        <li><b>Friends!</b> you can add friends and remove them </li>
+        <li><b>A personalized feed</b> showing what your friends have posted most recently</li>
     </ul>
     </details>
 
 
-    <!--Link to where people can get connected with our organization if they are interested
-    in joining and being part of our community. Added a margin top so that there felt like there
-    was more space, centered text so that it would be different from above paragraph.-->
-    <div style="margin-top: 70px;">
-        <p style="text-align: center;" > If you'd like to learn more and connect with us please fill out our welcome card!</p>
-        <a href="http://navybcm.com/welcome" > <p style="text-align: center;">Welcome Card!</p></a><br>
-        <a href="https://www.bible.com/bible/59/JHN.1.ESV"><p style="text-align: center;"> Also we'd love to have you join us as we go through John! </a>
-    </div>
-
-    <!--Links to the schedule and registration pages for lab 2-->
-    <div>
-        <h3> Check out our
-        <a href="./schedule.php"><span class="link"> Schedule </span></a>
-        and 
-        <a href="./registration.php"> <span class="link"> Registration! </span> </a>
-        </h3>
-    </div>
-
-    <!--Links to the schedule and registration pages for lab 2-->
-    <div class="light">
-        <h3> To create a report go 
-        <a href="./requestReport.php"> Here! </a> <br>
-        </h3>
-    </div>
-
-    <div class="light">
-        <h3> Login to your account
-        <a href="./login.php"> Here! </a> <br>
-        </h3>
-    </div>
     
-    <div class="light">
-        <h3> Logout of your account
-        <a href="./logout.php"> Here! </a> <br>
-        
-        </h3>
-    </div>
-    
-
-    <!--Footer that describes another main mission and has the creators information so that any
-    errors can be fixed and people can reach out with questions. Email has been referenced to make
-    things easier to access.-->
     <div class="footer">
         <footer>
             <br><br><br>
-            <p  style="text-align: center; font-size: large;"> Where friend's become family and the Lord is glorified</p>
-            <p class="floating">Website designed by Brendan Lewis - Email
+            <p  style="text-align: center; font-size: large;"> SHIPMATE: Find Your Crew</p>
+            <p class="floating">Website designed by Brendan Lewis and Maddie Iverson - Email
             <a href="mailto:m263708@usna.edu"> m263708@usna.edu</a> 
             for questions</p> 
         </footer>
